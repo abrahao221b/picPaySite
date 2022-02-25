@@ -1,0 +1,55 @@
+/* main.css */
+
+/* variables */
+:root {
+    --verde-principal: #28a169;
+    --verde-principal-escuro: #1F6F54;
+    --cinza-claro: #F4F4F4;
+    --cinza-claro-2: #D2D2D2;
+
+}
+
+/* Resetting some default features */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+/* Resetting ol and ul default feature */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Resetting blockquote and q default feature */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+    content: none;
+}
+
+/* Resetting table default features */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,0 +1,184 @@
+<!-- Index page, or Home-page -->
+<!-- Page's main language portuguese from Brazil -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <title>Home-Page</title>
+</head>
+<body>
+    <header>
+        <!-- Company logo -->
+        <div class="header_links">
+            <figure>
+                <img src="/assets/img/logo-picpro.png" alt="Logo Picpro">
+            </figure>
+            <div id="second_img">
+                <a href="https://kenzie.com.br/" style="text-decoration: none;" target="_black" rel="noopener">
+                    <img src="/assets/img/logo-kenzie.png" alt="Logo Kenzie">
+                </a>
+            <div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="account_details">
+            <!-- User Information  -->
+            <div id="user_details">
+                <img src="/assets/img/usuario.png" alt="Logo do usuário">
+                <p>Olá, <br><strong>@abrahao221b</strong></p>
+            </div>
+            <div id="balance">
+                <p>Saldo PicPay, <strong>R$ 0.00</strong></p>
+                <button>Extrato</button>
+            </div>
+        </section>
+
+        <!-- Account actions -->
+        <section class="transaction_buttons">
+            <div class="qr_code">
+                <img src="/assets/img/qrcode.png" alt="Ícone QR Code">
+                <p>QR Code</p>
+            </div>
+            <div class="pix">
+                <img src="/assets/img/pix.png" alt="Ícone Pix">
+                <p style="margin-left: 6px;">Pix</p>
+            </div>
+            <div class="boleto">
+                <img src="/assets/img/codigo.png" alt="Ícone boleto">
+                <p>Pagar <br>Boleto</p>
+            </div>
+            <div class="collect_debt">
+                <img src="/assets/img/cobrar-icon.png" alt="Ícone cobrar">
+                <p>Cobrar</p>
+            </div>
+        </section>
+
+        <section class="section_transaction">
+            <!-- section box -->
+            <div class="container">
+                <!-- button "Choose payment" -->
+                <div class="button_payment">
+                    <p>Selecione a forma de pagamento</p>
+                    <img src="/assets/img/banner.png" alt="Banner do picpay">
+                </div>
+
+                <!-- QR code div -->
+                <div hidden class="qr_code_div">
+                    <img src="/assets/img/qrcode-imagem.png" alt="Image QR Code">
+                    <p>@abrah221b</p>
+                    <button>Cobre um amigo</button>
+                    <a href="">
+                        <strong style="font-weight: bolder; font-style: oblique; opacity: 65%;">
+                            <br>Compartilhar meu código
+                        </strong>
+                    </a>
+                </div>
+
+                <!-- pix div -->
+                <div hidden class="pix_div">
+                    <img src="/assets/img/pix-logo.png" alt="Pix logo">
+                    <div>
+                        <img src="/assets/img/pix1.png" alt="Ícone opção pix">
+                        <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/pix2.png" alt="Ícone opção pix">
+                        <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
+                    </div>
+                </div>
+
+                <!-- boleto (ticket)-->
+                <div hidden class="boleto_div">
+                    <img src="/assets/img/boleto.png" alt="Imagem boleto">
+                    <h2>Pagar com código de barras</h2>
+                    <p>
+                        Você pode parcelar em até 12x no cartão ou usar seu
+                        saldo em carteira para pagar à vista.
+                    </p>
+                    <input type="text" placeholder="Insira o código de barras">
+                </div>
+
+                <!-- collect -->
+                <div hidden class="collect_debt_div">
+                    <img src="/assets/img/cobrar.png" alt="Imagem Cobrar">
+                    <h2>Cobrar</h2>
+                    <p>
+                        Divida a conta com os amigos de forma fácil!
+                    </p>
+                    <div>
+                        <img src="/assets/img/picpay-icon.png" alt="Ícone picpay">
+                        <p>
+                            <strong>Amigos do PicPay</strong>
+                            Divida e acompanhe um gasto com pessoas por aqui
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home-page end -->
+        <footer>
+            <!-- footer div -->
+            <div class="container">
+                <!-- list of buttons -->
+                <ul>
+                    <!-- start link -->
+                    <li>
+                        <a href="/">
+                            <img src="/assets/img/inicio.png" alt="Ícone início" style="padding-top: 56%;">
+                            <p>Início</p>
+                        </a>
+                    </li>
+                    <!-- wallet link -->
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/carteira-icon.png" alt="Ícone carteira" style="padding-top: 56%;">
+                            <p>Carteira</p>
+                        </a>
+                    </li>
+                    <!-- pay link -->
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/pagar.png" alt="Ícone pagar" id="payIcon" >
+                            <p>Pagar</p>
+                        </a>
+                    </li>
+                    <!-- notices link -->
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/notificacao.png" alt="Ícone notificação" style="padding-top: 48%;">
+                            <p>Notificações</p>
+                        </a>
+                    </li>
+                    <!-- store link -->
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/bolsa.png" alt="Ícone bolsa" style="padding-top: 51%; max-width: 50px;">
+                            <p>Store</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- author section -->
+            <div id="author">
+                <p>
+                    <strong>
+                        <i leng="en"> 
+                            Created by <a href="https://github.com/abrahao221b/" target="_black" rel="noopener"> Abrahão Leandro</a>
+                        </i>
+                    </strong>
+                </p>
+            </div>
+        </footer>
+    </main>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

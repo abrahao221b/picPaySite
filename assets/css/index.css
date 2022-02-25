@@ -1,0 +1,406 @@
+/* Index page css */
+
+/* google fonts style Roboto */
+@import "https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap";
+
+/* Page's body model style */
+body {
+    background-color: var(--verde-principal);
+    font-family: "Roboto", sans-serif;
+}
+
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* the two class containers css */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+/* Picpro and Kenzie logo */
+.header_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0px 150px;
+}
+
+header figure {
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+    width: 100%;
+}
+
+/* Kenzie logo */
+#second_img img {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 16px;
+}
+
+header div {
+    width: 100%;
+    max-width: 150px;
+}
+
+header div img {
+    width: 100%;
+}
+
+/* Main content css */
+
+section {
+    max-width: 100%;
+}
+
+.account_details {
+    color: #fff;
+    padding: 60px 150px 30px;
+    padding-right: 38%;
+}
+
+.account_details div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.account_details div p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.account_details div img {
+    width: 100%;
+    max-width: 50px;
+}
+
+#user_details p strong {
+    font-weight: bold;
+}
+
+#balance {
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+}
+
+#balance p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#balance p strong {
+    display: block;
+    font-weight: 600;
+}
+
+#balance button {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    box-shadow:2px 2px 6px -2px black;
+    cursor: pointer;
+}
+
+.transaction_buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 34% 40px 140px;
+    justify-content: space-between;
+}
+
+.transaction_buttons div {
+    background-color: var(--verde-principal-escuro);
+    width: 162px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.transaction_buttons div img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.transaction_buttons div p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 100%;
+}
+
+/* if .trasaction_buttons overlay  */
+.transaction_buttons .active {
+    background-color: var(--cinza-claro);
+    width: 162px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.transaction_buttons .active img {
+    filter: invert(60%);
+    filter: contrast(10%);
+    width: 100%;
+    max-width: 40px;
+}
+
+.transaction_buttons .active p {
+    color: var(--verde-principal);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 100%;
+}
+
+/* begin of the section transaction */
+
+.section_transaction {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 15px solid var(--cinza-claro-2);
+    padding: 54px 0px;
+}
+
+.button_payment p {
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 210px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.button_payment img {
+    margin: 30px 0 90px;
+    width: 100%;
+}
+
+.qr_code_div {
+    text-align: center;
+}
+
+.qr_code_div img {
+    max-width: 180px;
+}
+
+.qr_code_div p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.qr_code_div button {
+    background-color: var(--verde-principal);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+    margin-bottom: -6px;
+    cursor: pointer;
+}
+
+.qr_code_div a {
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.container .pix_div {
+    margin-left: 19%;
+    padding-top: 60px;
+}
+
+.pix_div div {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--cinza-claro-2);
+    max-width: 500px;
+    padding: 24px 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 25px 0px;
+}
+
+.pix_div div img {
+    width: 50px;
+    line-height: 20px;
+}
+
+.pix_div div p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.container .boleto_div {
+    margin-left: 10%;
+}
+
+.boleto_div img {
+    width: 100%;
+    max-width: 80px;
+    margin-left: 2%;
+}
+
+.boleto_div h2 {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 2%;
+}
+
+.boleto_div p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0px;
+    margin-left: 2%;
+}
+
+input[type="text"] {
+    width: 100%;
+    background-color: var(--cinza-claro);
+    font-size: 16px;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid var(--cinza-claro-2);
+    color: #000;
+    box-sizing: border-box;
+}
+
+/* section_transaction .container .collect_debt_div */
+.container .collect_debt_div {
+    margin-left: 22%;
+    
+}
+
+.collect_debt_div div {
+    display: flex;
+    padding: 26px 170px;
+    padding-left: 0px;
+    padding-right: 11px;
+    padding-bottom: 24px;
+    margin-right: 114px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 15%)
+}
+
+.collect_debt_div div img {
+    margin-right: 10px;
+}
+
+.collect_debt_div img {
+    width: 100%;
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+.collect_debt_div h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.collect_debt_div p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0px;
+    margin-left: 10px;
+    opacity: 66%;
+}
+
+.collect_debt_div div p {
+    margin-left: 10px;
+}
+
+
+/* footer css */
+
+footer {
+    background-color: #fff;
+    padding: 3%;
+}
+
+
+footer .container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: -85px;
+    margin-right: 56px;
+    margin-left: -44px;
+}
+
+footer .container li {
+    text-align: center;
+}
+
+footer .container li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer .container li a img {
+    width: 100%;
+    padding-top: 10px;
+    max-width: 40px;
+}
+
+#payIcon {
+    padding-top: 2%;
+    max-width: 120px;
+}
+
+footer .container li a p {
+    margin-top: 20px;
+    opacity: 60%;
+}
+
+/* author section css */
+
+#author {
+    color: rgb(180, 165, 165);
+    padding: 10px;
+    padding-top: 4%;
+    padding-bottom: 0px;
+    margin-left: 28%;
+    font-weight: bold;
+}
+
+#author a {
+    color: rgb(180, 165, 165);
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+
+
+
+
+
